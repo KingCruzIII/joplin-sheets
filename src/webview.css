@@ -1,15 +1,79 @@
 /* In webview.css */
-#luckysheet {
+
+div {
+  border-color: var(--joplin-divider-color) !important;
+}
+#joplin-plugin-content #luckysheet, #joplin-plugin-content .luckysheet {
 	background-color: var(--joplin-background-color);
 	color: var(--joplin-color);
 	font-size: var(--joplin-font-size);
 	font-family: var(--joplin-font-family);
-  width: 100%;
+  height: 100% !important;
+  width: 100% !important;
   margin: 0;
   padding: 0;
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   overflow: auto;
+  border: 0;
+}
+
+.luckysheet-loading-mask.luckysheet-loading-mask {
+  background-color: var(--joplin-background-color);
+}
+
+.luckysheet_info_detail.luckysheet_info_detail {
+  /* border-bottom: solid 1px var(--joplin-divider-color); */
+	background-color: var(--joplin-background-color);
+}
+
+.luckysheet_info_detail_input.luckysheet_info_detail_input {
+	color: var(--joplin-color) !important;
+	background-color: var(--joplin-background-color);
+
+}
+
+.luckysheet-wa-editor.luckysheet-wa-editor {
+	background-color: var(--joplin-background-color);
+}
+
+.luckysheet-toolbar-button.luckysheet-toolbar-button, .luckysheet-toolbar-menu-button.luckysheet-toolbar-menu-button {
+  color: var(--joplin-color);
+}
+.luckysheet-toolbar-button:hover, .luckysheet-toolbar-menu-button:hover {
+  border-color: transparent !important;
+}
+
+.luckysheet-wa-calculate-help-tool:hover {
+
+}
+
+.luckysheet-wa-calculate.luckysheet-wa-calculate {
+  background-color: var(--joplin-background-color);
+  /* border-bottom: 1px solid var(--joplin-divider-color); */
+}
+
+#luckysheet-helpbox#luckysheet-helpbox, #luckysheet-functionbox#luckysheet-functionbox {
+  background-color: var(--joplin-odd-background-color);
+}
+
+.luckysheet-helpbox-cell-input.luckysheet-helpbox-cell-input, .luckysheet-functionbox-cell-input.luckysheet-functionbox-cell-input {
+  background-color: var(--joplin-odd-background-color);
+}
+
+
+/* Grid */
+
+.luckysheet-grid-window-1.luckysheet-grid-window-1, .luckysheet-cols-h-c.luckysheet-cols-h-c {
+  background-color: var(--joplin-background-color);
+  color: var(--joplin-color);
+}
+
+.luckysheet-cols-h-hover.luckysheet-cols-h-hover {
+  background-color: var(--joplin-background-color-hover3);
+}
+.luckysheet-cols-h-selected.luckysheet-cols-h-selected {
+  background-color: var(--joplin-odd-background-color) !important;
+
 }
